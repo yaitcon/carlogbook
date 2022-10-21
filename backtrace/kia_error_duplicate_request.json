@@ -1,0 +1,61 @@
+get api infos status
+R [ManagedBluelinkyError]: @EuropeVehicle.status: [400] Bad Request on [GET] https://prd.eu-ccapi.kia.com:8080/api/v2/spa/vehicles/9b3fff23-8d1c-469a-a2c1-20b2df4582cc/status - {"retCode":"F","resCode":"4004","resMsg":"Duplicate request - Duplicate request","msgId":"5da151bd-072a-4865-aa87-7a61a0126440"}
+    at U (/home/kia/carlogbook/node_modules/bluelinky/dist/index.js:17:11700)
+    at G.<anonymous> (/home/kia/carlogbook/node_modules/bluelinky/dist/index.js:17:22578)
+    at Generator.throw (<anonymous>)
+    at a (/home/kia/carlogbook/node_modules/bluelinky/dist/index.js:17:136)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  source: GotError [HTTPError]: Response code 400 (Bad Request)
+      at EventEmitter.<anonymous> (/home/kia/carlogbook/node_modules/got/source/as-promise.js:74:19)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    host: undefined,
+    hostname: 'prd.eu-ccapi.kia.com',
+    method: 'GET',
+    path: '/api/v2/spa/vehicles/9b3fff23-8d1c-469a-a2c1-20b2df4582cc/status',
+    socketPath: undefined,
+    protocol: 'https:',
+    url: 'https://prd.eu-ccapi.kia.com:8080/api/v2/spa/vehicles/9b3fff23-8d1c-469a-a2c1-20b2df4582cc/status',
+    gotOptions: {
+      path: '/api/v2/spa/vehicles/9b3fff23-8d1c-469a-a2c1-20b2df4582cc/status',
+      protocol: 'https:',
+      hostname: 'prd.eu-ccapi.kia.com',
+      hash: '',
+      search: '',
+      pathname: '/api/v2/spa/vehicles/9b3fff23-8d1c-469a-a2c1-20b2df4582cc/status',
+      href: 'https://prd.eu-ccapi.kia.com:8080/api/v2/spa/vehicles/9b3fff23-8d1c-469a-a2c1-20b2df4582cc/status',
+      port: 8080,
+      retry: [Object],
+      headers: [Object],
+      hooks: [Object],
+      decompress: true,
+      throwHttpErrors: true,
+      followRedirect: true,
+      stream: false,
+      form: false,
+      json: true,
+      cache: false,
+      useElectronNet: false,
+      baseUrl: [Getter/Setter],
+      method: 'GET'
+    },
+    statusCode: 400,
+    statusMessage: 'Bad Request',
+    headers: {
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Fri, 21 Oct 2022 15:19:04 GMT',
+      etag: 'W/"80-E29c2VSixTjhwMIS/TdO9TOvsRU"',
+      'x-ratelimit-limit': '100',
+      'x-ratelimit-remaining': '97',
+      'x-ratelimit-reset': '1666365604',
+      'content-length': '128',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    body: {
+      retCode: 'F',
+      resCode: '4004',
+      resMsg: 'Duplicate request - Duplicate request',
+      msgId: '5da151bd-072a-4865-aa87-7a61a0126440'
+    }
+  }
+}
