@@ -1,0 +1,434 @@
+{
+    "cumulated": [
+        {
+            "period": 0,
+            "consumption": {
+                "total": 201645,
+                "engine": 178548,
+                "climate": 6271,
+                "devices": 16670,
+                "battery": 0
+            },
+            "regen": 79896,
+            "distance": 1478
+        },
+        {
+            "period": 1,
+            "consumption": {
+                "total": 7201,
+                "engine": 6376,
+                "climate": 223,
+                "devices": 595,
+                "battery": 0
+            },
+            "regen": 2853,
+            "distance": 52.7857142857143
+        },
+        {
+            "period": 2,
+            "consumption": {
+                "total": 2310,
+                "engine": 1727,
+                "climate": 253,
+                "devices": 330,
+                "battery": 0
+            },
+            "regen": 1876,
+            "distance": 15
+        }
+    ],
+    "history": [
+        {
+            "period": 0,
+            "rawDate": "20221020",
+            "date": "2022-10-20T00:00:00",
+            "consumption": {
+                "total": 3060,
+                "engine": 2305,
+                "climate": 315,
+                "devices": 440,
+                "battery": 0
+            },
+            "regen": 2381,
+            "distance": 20
+        },
+        {
+            "period": 0,
+            "rawDate": "20221019",
+            "date": "2022-10-19T00:00:00",
+            "consumption": {
+                "total": 4751,
+                "engine": 3712,
+                "climate": 349,
+                "devices": 690,
+                "battery": 0
+            },
+            "regen": 3100,
+            "distance": 43
+        },
+        {
+            "period": 0,
+            "rawDate": "20221018",
+            "date": "2022-10-18T00:00:00",
+            "consumption": {
+                "total": 1172,
+                "engine": 772,
+                "climate": 0,
+                "devices": 400,
+                "battery": 0
+            },
+            "regen": 921,
+            "distance": 8
+        },
+        {
+            "period": 0,
+            "rawDate": "20221017",
+            "date": "2022-10-17T00:00:00",
+            "consumption": {
+                "total": 6721,
+                "engine": 5706,
+                "climate": 259,
+                "devices": 600,
+                "battery": 0
+            },
+            "regen": 3340,
+            "distance": 51
+        },
+        {
+            "period": 0,
+            "rawDate": "20221016",
+            "date": "2022-10-16T00:00:00",
+            "consumption": {
+                "total": 6286,
+                "engine": 5546,
+                "climate": 270,
+                "devices": 470,
+                "battery": 0
+            },
+            "regen": 3823,
+            "distance": 55
+        },
+        {
+            "period": 0,
+            "rawDate": "20221015",
+            "date": "2022-10-15T00:00:00",
+            "consumption": {
+                "total": 7809,
+                "engine": 6755,
+                "climate": 394,
+                "devices": 660,
+                "battery": 0
+            },
+            "regen": 2658,
+            "distance": 58
+        },
+        {
+            "period": 0,
+            "rawDate": "20221014",
+            "date": "2022-10-14T00:00:00",
+            "consumption": {
+                "total": 5087,
+                "engine": 3915,
+                "climate": 372,
+                "devices": 800,
+                "battery": 0
+            },
+            "regen": 2932,
+            "distance": 41
+        },
+        {
+            "period": 0,
+            "rawDate": "20221013",
+            "date": "2022-10-13T00:00:00",
+            "consumption": {
+                "total": 584,
+                "engine": 480,
+                "climate": 4,
+                "devices": 100,
+                "battery": 0
+            },
+            "regen": 490,
+            "distance": 5
+        },
+        {
+            "period": 0,
+            "rawDate": "20221011",
+            "date": "2022-10-11T00:00:00",
+            "consumption": {
+                "total": 593,
+                "engine": 493,
+                "climate": 0,
+                "devices": 100,
+                "battery": 0
+            },
+            "regen": 458,
+            "distance": 5
+        },
+        {
+            "period": 0,
+            "rawDate": "20221010",
+            "date": "2022-10-10T00:00:00",
+            "consumption": {
+                "total": 4910,
+                "engine": 4137,
+                "climate": 173,
+                "devices": 600,
+                "battery": 0
+            },
+            "regen": 3628,
+            "distance": 46
+        },
+        {
+            "period": 0,
+            "rawDate": "20221009",
+            "date": "2022-10-09T00:00:00",
+            "consumption": {
+                "total": 13382,
+                "engine": 12830,
+                "climate": 52,
+                "devices": 500,
+                "battery": 0
+            },
+            "regen": 3478,
+            "distance": 98
+        },
+        {
+            "period": 0,
+            "rawDate": "20221008",
+            "date": "2022-10-08T00:00:00",
+            "consumption": {
+                "total": 920,
+                "engine": 720,
+                "climate": 0,
+                "devices": 200,
+                "battery": 0
+            },
+            "regen": 724,
+            "distance": 7
+        },
+        {
+            "period": 0,
+            "rawDate": "20221007",
+            "date": "2022-10-07T00:00:00",
+            "consumption": {
+                "total": 4408,
+                "engine": 3743,
+                "climate": 195,
+                "devices": 470,
+                "battery": 0
+            },
+            "regen": 2363,
+            "distance": 42
+        },
+        {
+            "period": 0,
+            "rawDate": "20221006",
+            "date": "2022-10-06T00:00:00",
+            "consumption": {
+                "total": 5184,
+                "engine": 4594,
+                "climate": 0,
+                "devices": 590,
+                "battery": 0
+            },
+            "regen": 3507,
+            "distance": 51
+        },
+        {
+            "period": 0,
+            "rawDate": "20221005",
+            "date": "2022-10-05T00:00:00",
+            "consumption": {
+                "total": 5064,
+                "engine": 4063,
+                "climate": 541,
+                "devices": 460,
+                "battery": 0
+            },
+            "regen": 3093,
+            "distance": 42
+        },
+        {
+            "period": 0,
+            "rawDate": "20221004",
+            "date": "2022-10-04T00:00:00",
+            "consumption": {
+                "total": 1093,
+                "engine": 767,
+                "climate": 26,
+                "devices": 300,
+                "battery": 0
+            },
+            "regen": 816,
+            "distance": 7
+        },
+        {
+            "period": 0,
+            "rawDate": "20221003",
+            "date": "2022-10-03T00:00:00",
+            "consumption": {
+                "total": 5542,
+                "engine": 4397,
+                "climate": 435,
+                "devices": 710,
+                "battery": 0
+            },
+            "regen": 3563,
+            "distance": 51
+        },
+        {
+            "period": 0,
+            "rawDate": "20221002",
+            "date": "2022-10-02T00:00:00",
+            "consumption": {
+                "total": 3632,
+                "engine": 2447,
+                "climate": 475,
+                "devices": 710,
+                "battery": 0
+            },
+            "regen": 2649,
+            "distance": 25
+        },
+        {
+            "period": 0,
+            "rawDate": "20221001",
+            "date": "2022-10-01T00:00:00",
+            "consumption": {
+                "total": 7796,
+                "engine": 6872,
+                "climate": 214,
+                "devices": 710,
+                "battery": 0
+            },
+            "regen": 4491,
+            "distance": 70
+        },
+        {
+            "period": 0,
+            "rawDate": "20220930",
+            "date": "2022-09-30T00:00:00",
+            "consumption": {
+                "total": 6052,
+                "engine": 4925,
+                "climate": 317,
+                "devices": 810,
+                "battery": 0
+            },
+            "regen": 3444,
+            "distance": 51
+        },
+        {
+            "period": 0,
+            "rawDate": "20220929",
+            "date": "2022-09-29T00:00:00",
+            "consumption": {
+                "total": 633,
+                "engine": 433,
+                "climate": 0,
+                "devices": 200,
+                "battery": 0
+            },
+            "regen": 491,
+            "distance": 4
+        },
+        {
+            "period": 0,
+            "rawDate": "20220928",
+            "date": "2022-09-28T00:00:00",
+            "consumption": {
+                "total": 5365,
+                "engine": 4733,
+                "climate": 162,
+                "devices": 470,
+                "battery": 0
+            },
+            "regen": 4316,
+            "distance": 56
+        },
+        {
+            "period": 0,
+            "rawDate": "20220927",
+            "date": "2022-09-27T00:00:00",
+            "consumption": {
+                "total": 1788,
+                "engine": 678,
+                "climate": 0,
+                "devices": 1110,
+                "battery": 0
+            },
+            "regen": 662,
+            "distance": 6
+        },
+        {
+            "period": 0,
+            "rawDate": "20220926",
+            "date": "2022-09-26T00:00:00",
+            "consumption": {
+                "total": 4733,
+                "engine": 3821,
+                "climate": 282,
+                "devices": 630,
+                "battery": 0
+            },
+            "regen": 2786,
+            "distance": 45
+        },
+        {
+            "period": 0,
+            "rawDate": "20220925",
+            "date": "2022-09-25T00:00:00",
+            "consumption": {
+                "total": 40500,
+                "engine": 38731,
+                "climate": 379,
+                "devices": 1390,
+                "battery": 0
+            },
+            "regen": 6981,
+            "distance": 233
+        },
+        {
+            "period": 0,
+            "rawDate": "20220924",
+            "date": "2022-09-24T00:00:00",
+            "consumption": {
+                "total": 43514,
+                "engine": 42065,
+                "climate": 269,
+                "devices": 1180,
+                "battery": 0
+            },
+            "regen": 6551,
+            "distance": 261
+        },
+        {
+            "period": 0,
+            "rawDate": "20220923",
+            "date": "2022-09-23T00:00:00",
+            "consumption": {
+                "total": 5063,
+                "engine": 4165,
+                "climate": 318,
+                "devices": 580,
+                "battery": 0
+            },
+            "regen": 2612,
+            "distance": 47
+        },
+        {
+            "period": 0,
+            "rawDate": "20220922",
+            "date": "2022-09-22T00:00:00",
+            "consumption": {
+                "total": 6803,
+                "engine": 5400,
+                "climate": 513,
+                "devices": 890,
+                "battery": 0
+            },
+            "regen": 4191,
+            "distance": 55
+        }
+    ]
+}
