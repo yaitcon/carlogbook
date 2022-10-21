@@ -22,8 +22,6 @@ params=function(req){
 const requestListener = function(req, res) {
 
 req.params=params(req);
-//res.writeHead(200);
-//res.end(req.params.apiendpoint);
 
 const client = new BlueLinky({
   username: process.env.APPUSERNAME,
@@ -46,8 +44,9 @@ case "status":
       res.end(req.params.apiendpoint);
       console.log("get api infos status");
       var status = await vehicle.status({ parsed: false, refresh: true });
-      var odo = await vehicle.odometer();
-      if ((status.evStatus.batteryStatus > 0) && (odo.value > 0)) { var letsgo = 1; }
+   // var odo = await vehicle.odometer();
+   // if ((status.evStatus.batteryStatus > 0) && (odo.value > 0)) { var letsgo = 1; }
+      if (status.evStatus.batteryStatus > 0) { var letsgo = 1; }
       break;
 
 case "odo":
@@ -162,8 +161,7 @@ default:
                                                      password: process.env.DBPWD,
                                                      connectionString: process.env.DBHOST });
          await connection.execute(`INSERT INTO eniro VALUES (systimestamp  at time zone 'CET' , '',upper('NO'|| :reqname))`,
-                                 {   str: { type: oracledb.DB_TYPE_JSON, val: status } ,
-                                 reqname: { type: oracledb.DB_TYPE_VARCHAR, val: req.params.apiendpoint} },{autoCommit: true});
+                                 {  reqname: { type: oracledb.DB_TYPE_VARCHAR, val: req.params.apiendpoint} },{autoCommit: true});
    }
  });
  };

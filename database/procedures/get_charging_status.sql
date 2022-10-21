@@ -13,12 +13,12 @@ begin
   l_clob := to_char(apex_web_service.make_rest_request(
               p_url => 'https://test.glasknochen.at/nodeconnector/?apiendpoint=status',
               p_http_method => 'GET'));
-
+dbms_session.sleep(1);
 if r.latest_batterycharge_value = 'false' then  
  l_clob := to_char(apex_web_service.make_rest_request(
               p_url => 'https://test.glasknochen.at/nodeconnector/?apiendpoint=odo',
               p_http_method => 'GET'));
-              
+ dbms_session.sleep(1);             
  l_clob := to_char(apex_web_service.make_rest_request(
               p_url => 'https://test.glasknochen.at/nodeconnector/?apiendpoint=loc',
               p_http_method => 'GET'));
