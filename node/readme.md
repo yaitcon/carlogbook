@@ -4,13 +4,9 @@ yum upgrade
 yum install nodejs rpm
 npm cache clean -f
 npm update npm -g
-npm audit fix
-npm audit fix --force
-npm i --package-lock-only
-npm audit fix --force
-npm update npm -g
-npm fund
-npm install -g n
+--npm i --package-lock-only
+--npm audit fix --force
+--npm update npm -g
 
 
 mkdir carlogbook

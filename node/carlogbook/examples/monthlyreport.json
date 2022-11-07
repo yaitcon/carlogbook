@@ -1,13 +1,13 @@
 {
-    "start": "20220921",
-    "end": "20221021",
+    "start": "20221008",
+    "end": "20221107",
     "breakdown": [],
     "driving": {
-        "distance": 1531,
-        "startCount": 118,
+        "distance": 1869,
+        "startCount": 107,
         "durations": {
-            "idle": 400.5,
-            "drive": 2184.9
+            "idle": 299,
+            "drive": 2112.1
         }
     },
     "vehicleStatus": {
