@@ -1,13 +1,30 @@
---------------------------------------------------------
---  DDL for View LATEST_LOCATION
---------------------------------------------------------
-
-  CREATE OR REPLACE VIEW "LATEST_LOCATION" ("STATUS_DATE", "LATITUDE", "LONGITUDE") DEFAULT COLLATION "USING_NLS_COMP"  AS 
-  with lateststatus as 
-(select max(status_date) maxstatus from location) ,
-rawdata as (
-select status_date,latitude,longitude
-from location, lateststatus
-where status_date = maxstatus)
-select "STATUS_DATE","LATITUDE","LONGITUDE" from rawdata
-;
+CREATE OR REPLACE FORCE EDITIONABLE VIEW "LATEST_LOCATION" (
+    "STATUS_DATE",
+    "LATITUDE",
+    "LONGITUDE",
+    "GEO_POINT"
+)  AS
+    WITH lateststatus AS (
+        SELECT
+            MAX(status_date) maxstatus
+        FROM
+            location
+    ), rawdata AS (
+        SELECT
+            status_date,
+            latitude,
+            longitude,
+            geo_point
+        FROM
+            location,
+            lateststatus
+        WHERE
+            status_date = maxstatus
+    )
+    SELECT
+        "STATUS_DATE",
+        "LATITUDE",
+        "LONGITUDE",
+        geo_point
+    FROM
+        rawdata;

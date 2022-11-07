@@ -4,7 +4,7 @@
 --------------------------------------------------------
 set define off;
 
-  CREATE OR REPLACE EDITIONABLE PROCEDURE"DRIVING_FORECAST" as 
+  CREATE OR REPLACE PROCEDURE "DRIVING_FORECAST" as 
 
     v_setlst DBMS_DATA_MINING.SETTING_LIST;
 BEGIN
