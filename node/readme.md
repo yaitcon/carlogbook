@@ -1,20 +1,26 @@
 -- node js installation   
 
 yum upgrade
+
 yum install nodejs rpm
+
 npm cache clean -f
+
 npm update npm -g
---npm i --package-lock-only
---npm audit fix --force
---npm update npm -g
 
 
 mkdir carlogbook
+
 npm install bluelinky
+
 npm update
+
 npm fund
+
 npm audit
+
 npm install oracledb
+
 npm install pm2 -g
 
 -- starte node im background und garantiere startup bei einem system reboot (pm2)
